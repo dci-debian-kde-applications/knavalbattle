@@ -1,4 +1,4 @@
-knavalbattle (4:4.9.95-0ubuntu1) UNRELEASED; urgency=low
+knavalbattle (4:4.9.95-0ubuntu1) raring; urgency=low
 
   * Install to /usr/games
   * Version dependency on kdegames-data
