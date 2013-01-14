@@ -4,7 +4,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 8.0.0),
                kdelibs5-dev (>= 4:4.9.97),
-               libkdegames-dev (>= 4:4.9.90),
+               libkdegames-dev (>= 4:4.9.97),
                pkg-kde-tools,
 Standards-Version: 3.9.3
 Section: games
@@ -13,7 +13,17 @@ Homepage: http://www.kde.org
 Package: knavalbattle
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kbattleships (<< 4:4.9.97-0ubuntu2)
+Breaks: kbattleships (<< 4:4.9.97-0ubuntu2)
 Description: naval battle game
  A naval battle game in the style of battleships.
  .
  This package is part of the KDE games module.
+
+Package: kbattleships
+Architecture: all
+Depends: knavalbattle
+Section: oldlibs
+Description: dummy package for knavalbattle
+ Dummy transitional package for knavalbattle.  Can be safely
+ removed.

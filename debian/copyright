@@ -5,7 +5,7 @@ Source: http://kde.org
 Files: *
 Copyright: 2000-2001 Nikolas Zimmermann <wildfox@kde.org>
            2007 Paolo Capriotti <p.capriotti@gmail.com>
-License: GPL-2
+License: GPL-2+
 
 Files: debian/*
 Copyright: 2012 Jonathan Riddell <jriddell@ubuntu.com>
