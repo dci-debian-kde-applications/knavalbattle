@@ -13,14 +13,14 @@ Homepage: http://www.kde.org
 Package: knavalbattle
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kbattleships (<< 4:4.9.97-0ubuntu2)
-Breaks: kbattleships (<< 4:4.9.97-0ubuntu2)
+Replaces: kbattleship (<< 4:4.9.97-0ubuntu3)
+Breaks: kbattleship (<< 4:4.9.97-0ubuntu3)
 Description: naval battle game
  A naval battle game in the style of battleships.
  .
  This package is part of the KDE games module.
 
-Package: kbattleships
+Package: kbattleship
 Architecture: all
 Depends: knavalbattle
 Section: oldlibs

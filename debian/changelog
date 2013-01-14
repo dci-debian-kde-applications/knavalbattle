@@ -1,3 +1,10 @@
+knavalbattle (4:4.9.97-0ubuntu3) raring; urgency=low
+
+  * Rename kbattleships to kbattleship as that's the correct name of the
+    old package
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 14 Jan 2013 19:49:21 +0100
+
 knavalbattle (4:4.9.97-0ubuntu2) raring; urgency=low
 
   * Add transitional package for kbattleships
