@@ -1,3 +1,9 @@
+knavalbattle (4:4.9.98-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 17 Jan 2013 10:09:03 +0000
+
 knavalbattle (4:4.9.97-0ubuntu3) raring; urgency=low
 
   * Rename kbattleships to kbattleship as that's the correct name of the
