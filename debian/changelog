@@ -1,9 +1,9 @@
-knavalbattle (4:4.9.98-0ubuntu1) UNRELEASED; urgency=low
+knavalbattle (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
 
   * New upstream release candidate
   * Add missing .install file
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 17 Jan 2013 10:09:03 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 15:46:26 +0000
 
 knavalbattle (4:4.9.97-0ubuntu3) raring; urgency=low
 
