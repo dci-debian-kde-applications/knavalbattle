@@ -6,17 +6,15 @@ Upstream-Contact: Roney Gomes <roney477@gmail.com>
 Source: http://www.kde.org/download/
 
 Files: *
-Copyright:
-2000-2005,  Nikolas Zimmermann <wildfox@kde.org>
-2000-2005, Daniel Molkentin <molkentin@kde.org>
-2007, Paolo Capriotti <p.capriotti@gmail.com>
+Copyright: 2000-2005,  Nikolas Zimmermann <wildfox@kde.org>
+           2000-2005, Daniel Molkentin <molkentin@kde.org>
+           2007, Paolo Capriotti <p.capriotti@gmail.com>
 License: GPL-2+
 
 Files: doc/*
-Copyright:
-2001, Daniel Molkentin <molkentin@kde.org>
-2001, Nikolas Zimmermann <wildfox@kde.org>
-2001, Kevin Krammer <kevin.krammer@gmx.at>
+Copyright: 2001, Daniel Molkentin <molkentin@kde.org>
+           2001, Nikolas Zimmermann <wildfox@kde.org>
+           2001, Kevin Krammer <kevin.krammer@gmx.at>
 License: GFDL-1.2+
 
 Files: src/button.cpp
