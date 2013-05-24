@@ -1,14 +1,26 @@
 Source: knavalbattle
-Priority: extra
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: cmake,
-               debhelper (>= 8.0.0),
-               kdelibs5-dev (>= 4:4.10.2),
-               libkdegames-dev (>= 4:4.10.2),
-               pkg-kde-tools,
-Standards-Version: 3.9.3
 Section: games
-Homepage: http://www.kde.org
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>,
+ Sune Vuorela <sune@debian.org>,
+ Fathi Boudra <fabo@debian.org>,
+ Modestas Vainius <modax@debian.org>,
+ George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+ Eshat Cakar <info@eshat.de>,
+ Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+ Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
+ kdelibs5-dev (>= 4:4.10),
+ libkdegames-dev (>= 4:4.10)
+Standards-Version: 3.9.4
+Homepage: http://games.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/knavalbattle
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/knavalbattle
+X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/knavalbattle.git
+X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/knavalbattle.git
 
 Package: knavalbattle
 Architecture: any

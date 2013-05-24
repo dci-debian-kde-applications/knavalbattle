@@ -1,3 +1,17 @@
+knavalbattle (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian, remaining change:
+   - rename binary from kbattleship to knavalbattle
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 May 2013 11:04:46 +0000
+
+knavalbattle (4:4.10.2-1) experimental; urgency=low
+
+  * First release of kdegames after being split by upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 10 Apr 2013 15:51:01 +0200
+
 knavalbattle (4:4.10.2-0ubuntu1) raring; urgency=low
 
   * New upstream bugfix release
@@ -55,3 +69,4 @@ knavalbattle (4:4.9.90-0ubuntu1) raring; urgency=low
   * Initial release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 18:00:35 +0000
+
