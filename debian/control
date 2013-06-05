@@ -36,6 +36,7 @@ Package: kbattleship
 Architecture: all
 Depends: knavalbattle
 Section: oldlibs
+Priority: extra
 Description: dummy package for knavalbattle
  Dummy transitional package for knavalbattle.  Can be safely
  removed.
