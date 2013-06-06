@@ -1,4 +1,4 @@
-knavalbattle (4:4.10.4-0ubuntu1) UNRELEASED; urgency=low
+knavalbattle (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
 
   [ Rohan Garg ]
   * New upstream bugfix release
@@ -7,7 +7,7 @@ knavalbattle (4:4.10.4-0ubuntu1) UNRELEASED; urgency=low
   * remove incorrect knavalbattle.menu
   * translational Priority: extra
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 01 Jun 2013 13:47:14 +0100
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:37:33 +0100
 
 knavalbattle (4:4.10.3-0ubuntu1) saucy; urgency=low
 
