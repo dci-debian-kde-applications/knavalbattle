@@ -1,8 +1,8 @@
-knavalbattle (4:4.11.1-0ubuntu1) UNRELEASED; urgency=low
+knavalbattle (4:4.11.1-0ubuntu1) saucy; urgency=low
 
   * New upstream bugfix release.
 
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 30 Aug 2013 16:20:17 +0200
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:27:01 +0100
 
 knavalbattle (4:4.11.0-0ubuntu1) saucy; urgency=low
 
