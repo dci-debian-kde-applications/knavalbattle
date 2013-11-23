@@ -1,13 +1,14 @@
 ../icons/kbattleship-16.xpm /usr/share/pixmaps
 ../icons/kbattleship.xpm /usr/share/pixmaps
-usr/games/kbattleship
-usr/share/applications/kde4/kbattleship.desktop
-usr/share/doc/kde/HTML/en/kbattleship/*
-usr/share/icons/hicolor/128x128/apps/kbattleship.png
-usr/share/icons/hicolor/16x16/apps/kbattleship.png
-usr/share/icons/hicolor/22x22/apps/kbattleship.png
-usr/share/icons/hicolor/32x32/apps/kbattleship.png
-usr/share/icons/hicolor/48x48/apps/kbattleship.png
-usr/share/icons/hicolor/64x64/apps/kbattleship.png
-usr/share/kde4/apps/kbattleship/*
-usr/share/kde4/services/kbattleship.protocol
+usr/games/knavalbattle
+usr/share/applications/kde4/knavalbattle.desktop
+usr/share/doc/kde/HTML/en/knavalbattle/*
+usr/share/icons/hicolor/128x128/apps/knavalbattle.png
+usr/share/icons/hicolor/16x16/apps/knavalbattle.png
+usr/share/icons/hicolor/22x22/apps/knavalbattle.png
+usr/share/icons/hicolor/32x32/apps/knavalbattle.png
+usr/share/icons/hicolor/48x48/apps/knavalbattle.png
+usr/share/icons/hicolor/64x64/apps/knavalbattle.png
+usr/share/kde4/apps/knavalbattle/*
+usr/share/kde4/services/knavalbattle.protocol
+usr/share/kde4/apps/kconf_update/knavalbattle.upd
