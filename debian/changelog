@@ -1,8 +1,8 @@
-knavalbattle (4:4.11.95-0ubuntu1) UNRELEASED; urgency=low
+knavalbattle (4:4.11.95-0ubuntu1) trusty; urgency=low
 
   * New upstream beta release
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 19:10:59 +0100
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:13:25 +0100
 
 knavalbattle (4:4.11.80-0ubuntu1) trusty; urgency=low
 
