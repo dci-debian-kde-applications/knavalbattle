@@ -1,11 +1,11 @@
-.TH KBATTLESHIP 6
+.TH KNAVALBATTLE 6
 .SH NAME
-kbattleship \- The KDE Battleship clone
+knavalbattle \- The KDE Battleship clone
 .SH SYNOPSIS
-.B kbattleship
+.B knavalbattle
 .I [Qt-options] [KDE-options] [url]
 .SH DESCRIPTION
-.B kbattleship
+.B knavalbattle
 is a network-enabled implementation of the famous `Battle Ship' game
 for KDE.
 .TP
@@ -16,4 +16,4 @@ URL of a Naval Battle game server to connect to after startup
 More detailed user documentation is available from
 .BR help:/kbattleship
 (either enter this URL into \fBkonqueror\fP, or run `khelpcenter
-help:/kbattleship).
+help:/knavalbattle).

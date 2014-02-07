@@ -21,12 +21,12 @@ Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/knavalbattle.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/knavalbattle.git
 
-Package: kbattleship
+Package: knavalbattle
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter4
 Description: battleship board game
- KBattleship is an implementation of the Battleship game, where two players
+ KNavalbattle is an implementation of the Battleship game, where two players
  take turns firing at the opponent's ships by guessing their coordinates.
  .
  This package is part of the KDE games module.
