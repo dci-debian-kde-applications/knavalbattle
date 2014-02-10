@@ -3,6 +3,7 @@ knavalbattle (4:4.12.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Binary package renamed to knavalbattle.
   * Update install files.
+  * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:08:08 +0100
 
