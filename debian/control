@@ -30,3 +30,10 @@ Description: battleship board game
  take turns firing at the opponent's ships by guessing their coordinates.
  .
  This package is part of the KDE games module.
+
+Package: kbattleship
+Architecture: all
+Section: oldlibs
+Depends: knavalbattle, ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
