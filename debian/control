@@ -4,39 +4,39 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
- Sune Vuorela <sune@debian.org>,
- Fathi Boudra <fabo@debian.org>,
- Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <gkiagiad@csd.uoc.gr>,
- Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.13.0),
- libkdegames-dev (>= 4:4.13.0)
-Standards-Version: 3.9.4
+           Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.12),
+               kdelibs5-dev (>= 4:4.11),
+               libkdegames-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.14)
+Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/knavalbattle
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/knavalbattle
-X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/knavalbattle.git
-X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/knavalbattle.git
+X-Debian-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/knavalbattle.git
+X-Debian-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/knavalbattle.git
 
 Package: knavalbattle
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kbattleship (<< 4:4.9.97-0ubuntu3)
-Breaks: kbattleship (<< 4:4.9.97-0ubuntu3)
-Description: naval battle game
- A naval battle game in the style of battleships.
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: khelpcenter4
+Description: battleship board game
+ KNavalbattle is an implementation of the Battleship game, where two players
+ take turns firing at the opponent's ships by guessing their coordinates.
  .
  This package is part of the KDE games module.
 
 Package: kbattleship
 Architecture: all
-Depends: knavalbattle
 Section: oldlibs
-Priority: extra
-Description: dummy package for knavalbattle
- Dummy transitional package for knavalbattle.  Can be safely
- removed.
+Depends: knavalbattle, ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
