@@ -1,8 +1,8 @@
-knavalbattle (4:4.13.3-1) UNRELEASED; urgency=medium
+knavalbattle (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:28:03 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 29 Jul 2014 23:11:32 +0200
 
 knavalbattle (4:4.13.2-0ubuntu1) utopic; urgency=medium
 
