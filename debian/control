@@ -1,8 +1,7 @@
 Source: knavalbattle
 Section: games
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
@@ -19,15 +18,13 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/knavalbattle.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/knavalbattle.git
-X-Ubuntu-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/knavalbattle
-X-Ubuntu-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/knavalbattle
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/knavalbattle.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/knavalbattle.git
 
 Package: knavalbattle
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: khelpcenter4
+Recommends: khelpcenter
 Description: battleship board game
  KNavalbattle is an implementation of the Battleship game, where two players
  take turns firing at the opponent's ships by guessing their coordinates.
