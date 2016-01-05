@@ -10,12 +10,23 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
-               libkdegames-dev,
-               pkg-kde-tools (>= 0.14)
+ Build-Depends: cmake,
+                debhelper (>= 9),
+                extra-cmake-modules,
+                kdelibs5-dev,
+                pkg-kde-tools (>= 0.14)
+                kdoctools-dev,
+                libkf5config-dev,
+                libkf5dbusaddons-dev,
+                libkf5dnssd-dev,
+                libkf5i18n-dev,
+                libkf5kdegames-dev,
+                libkf5kdelibs4support-dev,
+                libkf5textwidgets-dev,
+                libkf5xmlgui-dev,
+                pkg-kde-tools (>= 0.14),
+                qtbase5-dev,
+                qtdeclarative5-dev
 Standards-Version: 3.9.6
 Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/knavalbattle.git/

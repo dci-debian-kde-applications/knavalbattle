@@ -1,6 +1,10 @@
 knavalbattle (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
+
+  [ Ovidiu-Florin BOGDAN ]
+  * Update build-deps and install files list for the KF5 port
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:05:43 +0000
 
