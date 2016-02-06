@@ -2,20 +2,9 @@
 ../icons/knavalbattle.xpm /usr/share/pixmaps
 usr/games/knavalbattle
 usr/share/applications/org.kde.knavalbattle.desktop
-usr/share/doc/HTML/*/knavalbattle/index.cache.bz2
-usr/share/doc/HTML/*/knavalbattle/index.docbook
-usr/share/icons/hicolor/128x128/apps/knavalbattle.png
-usr/share/icons/hicolor/16x16/apps/knavalbattle.png
-usr/share/icons/hicolor/22x22/apps/knavalbattle.png
-usr/share/icons/hicolor/32x32/apps/knavalbattle.png
-usr/share/icons/hicolor/48x48/apps/knavalbattle.png
-usr/share/icons/hicolor/64x64/apps/knavalbattle.png
+usr/share/doc/HTML/*/knavalbattle/
+usr/share/icons/hicolor/*/apps/knavalbattle.png
 usr/share/kconf_update/knavalbattle.upd
-usr/share/knavalbattle/pictures/default.desktop
-usr/share/knavalbattle/pictures/default_theme.svgz
-usr/share/knavalbattle/sounds/ship-player-shoot-water.ogg
-usr/share/knavalbattle/sounds/ship-player1-shoot.ogg
-usr/share/knavalbattle/sounds/ship-player2-shoot.ogg
-usr/share/knavalbattle/sounds/ship-sink.ogg
+usr/share/knavalbattle/
 usr/share/kservices5/knavalbattle.protocol
-usr/share/kxmlgui5/knavalbattle/knavalbattleui.rc
+usr/share/kxmlgui5/knavalbattle/

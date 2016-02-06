@@ -1,12 +1,19 @@
-knavalbattle (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Clive Johnston ]
-  * New upstream release
+knavalbattle (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Ovidiu-Florin BOGDAN ]
   * Update build-deps and install files list for the KF5 port
 
+  [ Clive Johnston ]
+  * New upstream release
+  * Merged with Debian
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:05:43 +0000
+
+knavalbattle (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:16 +0100
 
 knavalbattle (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -43,11 +50,24 @@ knavalbattle (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:12:13 +0200
 
+knavalbattle (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:16 +0200
+
 knavalbattle (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:57:02 -0700
+
+knavalbattle (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 16:03:19 +0100
 
 knavalbattle (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
@@ -70,12 +90,12 @@ knavalbattle (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 knavalbattle (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
    - Remove X-Unbuntu entries no longer applicable.
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 26 Nov 2014 17:15:24 +0000
 
@@ -385,4 +405,3 @@ knavalbattle (4:4.9.90-0ubuntu1) raring; urgency=low
   * Initial release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 18:00:35 +0000
-
