@@ -1,11 +1,20 @@
-knavalbattle (4:16.04.0-1~1.gbpe0d7e7) UNRELEASED; urgency=medium
+knavalbattle (4:16.04.0-1~2.gbpd61f8a) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @d61f8a48875578f900aa712ff2195238614aaf14 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @e0d7e7720ffcae8f00e7dd594e0d669dff104f94 **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:08:19 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 13:12:11 +0200
 
 knavalbattle (4:15.12.0-1) experimental; urgency=medium
 
