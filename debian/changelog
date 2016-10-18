@@ -1,10 +1,8 @@
-knavalbattle (4:16.08.0-1~1.gbp307934) UNRELEASED; urgency=medium
+knavalbattle (4:16.08.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @307934bc5f2c4e3699bcc9e2709a22b925e1c0c1 **
+  * New upstream release (16.08.0)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 01:08:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 00:11:46 +0200
 
 knavalbattle (4:16.04.0-1) unstable; urgency=medium
 
