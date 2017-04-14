@@ -34,6 +34,8 @@ Package: knavalbattle
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: battleship board game
  KNavalbattle is an implementation of the Battleship game, where two players
  take turns firing at the opponent's ships by guessing their coordinates.
