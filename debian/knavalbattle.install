@@ -6,3 +6,5 @@ usr/share/kconf_update/knavalbattle.upd
 usr/share/knavalbattle/
 usr/share/kservices5/knavalbattle.protocol
 usr/share/kxmlgui5/knavalbattle/
+usr/share/locale/
+usr/share/metainfo/org.kde.knavalbattle.appdata.xml
