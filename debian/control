@@ -9,26 +9,33 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
            George Kiagiadakis <gkiagiad@csd.uoc.gr>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
-               libkf5doctools-dev (>= 5.15.0~),
                libkf5config-dev (>= 5.15.0~),
                libkf5crash-dev (>= 5.15.0~),
                libkf5dbusaddons-dev (>= 5.15.0~),
                libkf5dnssd-dev (>= 5.15.0~),
+               libkf5doctools-dev (>= 5.15.0~),
                libkf5i18n-dev (>= 5.15.0~),
                libkf5kdegames-dev (>= 4.9.0~),
                libkf5kdelibs4support-dev,
                libkf5textwidgets-dev (>= 5.15.0~),
                libkf5xmlgui-dev (>= 5.15.0~),
                pkg-kde-tools (>= 0.14),
-               qtbase5-dev (>= 5.3.0~)
+               qtbase5-dev (>= 5.3.0~),
 Standards-Version: 4.1.0
 Homepage: http://games.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/knavalbattle.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/knavalbattle.git
+
+Package: kbattleship
+Architecture: all
+Section: oldlibs
+Depends: knavalbattle, ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
 
 Package: knavalbattle
 Architecture: any
@@ -41,10 +48,3 @@ Description: battleship board game
  take turns firing at the opponent's ships by guessing their coordinates.
  .
  This package is part of the KDE games module.
-
-Package: kbattleship
-Architecture: all
-Section: oldlibs
-Depends: knavalbattle, ${misc:Depends}
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
