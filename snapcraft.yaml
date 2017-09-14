@@ -1,0 +1,45 @@
+---
+name: knavalbattle
+version: 17.08.1
+summary: battleship board game
+description: |-
+ KNavalbattle is an implementation of the Battleship game, where two players
+ take turns firing at the opponents ships by guessing their coordinates.
+confinement: strict
+grade: stable
+apps:
+    kexi:
+        command: kf5-launch knavalbattle
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kexi:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkf5kdegames-dev
+        - libkf5kdelibs4support-dev
+        source: https://download.kde.org/stable/applications/17.08.1/src/knavalbattle-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
