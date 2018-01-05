@@ -1,5 +1,9 @@
 knavalbattle (4:17.08.3-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove the transitional package kbattleship. (Closes: #878637)
+  * Stop forcing the local installation directory, since there is only one
+    binary now.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jan 2018 16:43:46 +0100
 
