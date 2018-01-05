@@ -4,6 +4,7 @@ knavalbattle (4:17.08.3-3) UNRELEASED; urgency=medium
   * Remove the transitional package kbattleship. (Closes: #878637)
   * Stop forcing the local installation directory, since there is only one
     binary now.
+  * Bump Standards-Version to 4.1.3, no changes required.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jan 2018 16:43:46 +0100
 
